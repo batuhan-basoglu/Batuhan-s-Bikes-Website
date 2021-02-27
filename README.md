@@ -7,6 +7,6 @@ https://arctichawk1.github.io/SEG3125-LAB4/
 # Authors
 
 - Batuhan Basoglu, 300001274 - ArcticHawk1
-- Ruchira Perrera, 8714992 - ruchirawp
+- Ruchira Perera, 8714992 - ruchirawp
 - Sam Oyediran, 300016349 - soyed
 - Kene Ojukwu, 300027974 - kene17
