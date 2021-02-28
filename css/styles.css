@@ -31,7 +31,16 @@ body {
 }
 
 .colored-section {
-    background-color: #ff4c68;
+    background-color: #a77a32;
+    color: #ffffff;
+}
+
+.colored-section2 {
+    background-color: #34626c;
+    color: #ffffff;
+}
+.colored-section3 {
+    background-color: #cfd3ce;
     color: #ffffff;
 }
 
@@ -124,12 +133,12 @@ p {
 }
 
 .feature-icon {
-    color: #ef8172;
+    color: #34626c;
     margin-bottom: 1rem;
 }
 
 .feature-icon:hover {
-    color: #ff4c68;
+    color: #839b97;
 }
 
 
@@ -156,7 +165,7 @@ p {
 /* Press section */
 
 #press {
-    background-color: #ef8172;
+    background-color: #81ef72;
     padding-bottom: 3%;
 }
 

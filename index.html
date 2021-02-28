@@ -30,9 +30,12 @@
 
 <body>
 
-  <section class="colored-section" id="title">
+
+
+  <section class="colored-section2" id="title">
 
     <div class="container-fluid">
+    <img src="images/logo2.png" style="float:left;width:42px;height:42px; margin-right:20px; margin-top:10px">
 
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -74,40 +77,72 @@
   </section>
 
 
-  <!-- Features -->
+  <!-- Owner Bio -->
 
   <section class="white-section" id="features">
 
     <div class="container-fluid">
 
       <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="feature-icon fas fa-check-circle fa-4x"></i>
-          <h3 class="feature-title">Easy to use.</h3>
-          <p>So easy to use, even your dog could do it.</p>
+        <div  class="feature-box col">
+
+          <h1>Hey, my name is Batuhan.</h1>
+          <p>Ever since I was a child, it was my dream to own 
+          a bike shop. One day after school, a bike fell out of the sky 
+          and I could see that it was broken. I managed to fix that bike 
+          up and use it in bike tournaments. That same bike is the one that I 
+          used to win the national biking tournament in Bikini Bottom. To this day, 
+          I don't know where that bike came from but I wish to pass on my good fortune to 
+          others by helping them with their bikes. </p>
         </div>
 
-        <div class="feature-box col-lg-4">
-          <i class="feature-icon fas fa-bullseye fa-4x"></i>
-          <h3 class="feature-title">Elite Clientele</h3>
-          <p>We have all the dogs, the greatest dogs.</p>
+        <div  class="feature-box col-lg-4">
+          <p><img src="images\owner_pic.jpg" alt="Girl in a jacket"> </p>
         </div>
 
-        <div class="feature-box col-lg-4">
-          <i class="feature-icon fas fa-heart fa-4x"></i>
-          <h3 class="feature-title">Guaranteed to work.</h3>
-          <p>Find the love of your dog's life or your money back.</p>
-        </div>
       </div>
     </div>
 
 
   </section>
 
+  <!-- Features -->
+
+  <!--
+
+
+  <section class="colored-section3" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Fast and Easy</h3>
+          <p>Just leave it to us, we can fix any problem within 3 days</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Precise</h3>
+          <p>We can help you find what bike is right for you</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed Satisfaction</h3>
+          <p>All of our customers have loved their bikes. Take it from them.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  -->
 
   <!-- Testimonials -->
 
-  <section class="colored-section" id="testimonials">
+  <section class="colored-section2" id="colored-section2">
     <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
 
@@ -227,7 +262,7 @@
 
   <!-- Call to Action -->
 
-  <section class="colored-section" id="cta">
+  <section class="colored-section2" id="cta">
     <h2 class="big-heading">Contact Us</h2>
     <p style="color:white;">5 Hawthorne Avenue <br>
       Ottawa, Ontario <br>
@@ -281,11 +316,19 @@
             <input type="text" id="lname" name="lastname" placeholder="Last Name">
           </div>
         </div>
+
+        
     
         <input type="text" id="subject" name="subject" placeholder="Subject">
 
         <textarea id="message" name="message" placeholder="Your Message" style="height:200px"></textarea>
     
+        <label for="appTime">Request Appointment for: </label>
+       <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+      
+       <br>
+       <br>
+
         <input type="submit" value="Submit">
     
       </form>
