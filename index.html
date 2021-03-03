@@ -47,13 +47,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#pricing">Repair Plans</a>
+              <a class="nav-link" href="#pricing" id="test">Repair Plans</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#cta">Contact Us</a>
+              <a class="nav-link" href="#cta" id="test">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#appointment">Appointment</a>
+              <a class="nav-link" href="#appointment" id="test">Appointment</a>
             </li>
           </ul>
         </div>
@@ -64,7 +64,7 @@
       <div class="row">
         <div class="col-lg-6">
           <h1 class="big-heading">Nothing beats the high of a good bike ride. </h1>
-          <button type="button" class="btn btn-lg btn-dark download-btn"><i class="fas fa-bicycle"></i> Book an
+          <button type="button" onclick="toAppointment()" class="btn btn-lg btn-dark download-btn"><i class="fas fa-bicycle"></i> Book an
             Appointment</button>
         </div>
 
@@ -84,9 +84,9 @@
     <div class="container-fluid">
 
       <div class="row">
-        <div  class="feature-box col">
+        <div class="feature-box col">
 
-          <h1>Hey, my name is Batuhan.</h1>
+          <h1 style="font-weight: bold;">Hey, my name is Batuhan.</h1>
           <p>Ever since I was a child, it was my dream to own 
           a bike shop. One day after school, a bike fell out of the sky 
           and I could see that it was broken. I managed to fix that bike 
@@ -203,7 +203,7 @@
 
   <section class="white-section" id="pricing">
 
-    <h2 class="section-heading">Our Bike Repair Plans</h2>
+    <h2 class="section-heading">Our Services</h2>
     <p>Simple and affordable price plans for your bike.</p>
 
 
@@ -211,15 +211,14 @@
       <div class="pricing-col col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3>Regular Tune Up</h3>
+            <h3>Brake Repair</h3>
           </div>
           <div class="card-body">
             <h2 class="price-text">$47.95</h2>
             <img class="title-image" src="images/bike1.jpg" alt="bike1">
             <p>Repair Using Standard kit</p>
             <p>Part Replacement</p>
-            <p>Cleaning</p>
-            <button type="button" class="btn btn-block btn-outline-dark btn-lg">Buy</button>
+            <button type="button" class="btn btn-block btn-outline-dark btn-lg">Select</button>
           </div>
         </div>
       </div>
@@ -227,15 +226,14 @@
       <div class="pricing-col col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3>"Tired Bike" Tune Up</h3>
+            <h3>Fixing Punctures</h3>
           </div>
           <div class="card-body">
             <h2 class="price-text">$59.95</h2>
             <img class="title-image" src="images/bike2.jpg" alt="bike2">
-            <p>More Repair Using Advanced Kit</p>
-            <p>More Part Replacement</p>
-            <p>More Cleaning</p>
-            <button type="button" class="btn btn-block btn-outline-dark btn-lg">Buy</button>
+            <p> Repair Using Advanced Kit</p>
+            <p> Part Replacement</p>
+            <button type="button" class="btn btn-block btn-outline-dark btn-lg">Select</button>
           </div>
         </div>
       </div>
@@ -244,15 +242,14 @@
       <div class="pricing-col col-lg-4 ">
         <div class="card">
           <div class="card-header">
-            <h3>"Roadie" Tune Up</h3>
+            <h3>Full Repair/Maintenance</h3>
           </div>
           <div class="card-body">
             <h2 class="price-text">$79.95</h2>
             <img class="title-image" src="images/bike3.jpg" alt="bike3">
-            <p>Full Repair Using Ultimate Kit</p>
             <p>Full Part Replacement</p>
             <p>Full Cleaning</p>
-            <button type="button" class="btn btn-block btn-outline-dark btn-lg">Buy</button>
+            <button type="button" class="btn btn-block btn-outline-dark btn-lg">Select</button>
           </div>
         </div>
       </div>
@@ -263,29 +260,38 @@
   <!-- Call to Action -->
 
   <section class="colored-section2" id="cta">
+  <div class="row">
+
+    <div class ="col-12"> 
     <h2 class="big-heading">Contact Us</h2>
-    <p style="color:white;">5 Hawthorne Avenue <br>
-      Ottawa, Ontario <br>
-      Phone: (613) 567-8180 <br>
-      Email: info@cycosport.ca
-    </p>
+      <p style="color:white;font-size:20px">5 Hawthorne Avenue <br>
+        Ottawa, Ontario <br>
+        Phone: (613) 567-8180 <br>
+        Email: info@cycosport.ca <br>
+        <p style= "font-weight: bold; color: white;font-size:25px ">Buisness Hours: 8:30 - 22:00, Monday to Friday <p>
+      </p>
+    </div>
+
+
+
+    </div>
+
+   </div>
+    
+
+
     <div class="row">
-      <div class="col-8">
-        <div id="googleMap" style="width:70%;height:400px;margin-left:auto; margin-right:auto;"></div>
+      <div class="col-12">
+        <div id="googleMap" class="map-img"></div>
       </div>
 
-      <div class="col-3-4">
-        <h2 class="big-heading-2">Opening Hours</h2>
-        <p style="color:white;text-align:left;padding-left:30px;">
-          Mon: 8:30 to 22:00<br>
-          Tue: 8:30 to 22:00<br>
-          Wed: 8:30 to 22:00<br>
-          Thu: 8:30 to 22:00<br>
-          Fri: 8:30 to 22:00<br>
-          Sat: 10:00 to 20:00<br>
-          Sun: 10:00 to 20:00<br>
-        </p>
-      </div>
+
+    </div>
+      
+
+
+
+
       <script>
         function myMap() {
           var mapProp = {
@@ -338,16 +344,25 @@
 
   <!-- Footer -->
 
-  <footer class="white-section" id="footer">
+  <footer class="colored-section2" id="footer">
     <div class="container-fluid">
       <i class="social-icon fab fa-twitter"></i>
       <i class="social-icon fab fa-facebook"></i>
       <i class="social-icon fab fa-instagram"></i>
       <i class="social-icon fas fa-envelope"></i>
-      <p>© Copyright SEG3125 - Group 3</p>
+      <p style="color:white;">© Copyright SEG3125 - Group 3</p>
     </div>
   </footer>
 
+  <!-- script to scroll to appointment-->
+  <script>
+    function toAppointment() {
+      document.getElementById('appointment').scrollIntoView();
+    }
+  </script>
+
 </body>
+
+
 
 </html>
