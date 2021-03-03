@@ -62,7 +62,8 @@ h3 {
 }
 
 p {
-    color: #8f8f8f;
+     color: rgb(77, 77, 77);
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 
@@ -85,11 +86,22 @@ p {
 
 .navbar-item {
     padding: 0px 18px;
+    
 }
 
 .navbar-link {
     font-size: 1.2rem;
     font-family: 'Montserrat-light', sans-serif;
+    
+   
+}
+
+#test {
+    color:rgb(236, 236, 236); 
+}
+
+#test:hover {
+    color:rgb(216, 181, 24); 
 }
 
 
@@ -114,6 +126,12 @@ p {
     width: 100%;
     position: right;
     right: 30%;
+}
+
+#features .container-fluid {
+    padding: 3% 5% ;
+    text-align: left;
+
 }
 
 
@@ -192,6 +210,17 @@ p {
 
 
 /* CTA Section */
+#cta{
+    padding: 3% 7%
+}
+
+.map-img{
+   width:70%;
+   height:400px;
+   margin: 3% auto;
+   
+
+}
 
 
 /* Footer section */
