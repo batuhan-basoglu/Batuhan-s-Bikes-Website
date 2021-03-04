@@ -106,39 +106,6 @@
 
   </section>
 
-  <!-- Features -->
-
-  <!--
-
-
-  <section class="colored-section3" id="features">
-
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="feature-icon fas fa-check-circle fa-4x"></i>
-          <h3 class="feature-title">Fast and Easy</h3>
-          <p>Just leave it to us, we can fix any problem within 3 days</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="feature-icon fas fa-bullseye fa-4x"></i>
-          <h3 class="feature-title">Precise</h3>
-          <p>We can help you find what bike is right for you</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-          <i class="feature-icon fas fa-heart fa-4x"></i>
-          <h3 class="feature-title">Guaranteed Satisfaction</h3>
-          <p>All of our customers have loved their bikes. Take it from them.</p>
-        </div>
-      </div>
-    </div>
-
-
-  </section>
-  -->
 
   <!-- Testimonials -->
 
@@ -186,18 +153,6 @@
 
 
   </section>
-
-
-  <!-- Press -->
-  <!---
-  <section class="colored-section" id="press">
-    <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-img" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-img" src="images/mashable.png" alt="mashable-logo">
-
-  </section>
-  -->
 
   <!-- Pricing -->
 
@@ -312,8 +267,21 @@
     <div class="container-fluid">
       <form action="action_page.php">
 
-        <h2 class="big-heading">Book an Appointment</h2>
+      <h2 class="big-heading">Book an Appointment</h2>
 
+      <!--- Select Services --->
+      <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+        <option selected>Select Services</option>
+        <option value="1">Brake Repair</option>
+        <option value="2">Fixing Punctures</option>
+        <option value="3">Full Repair/Maintenance</option>
+      </select>
+      <!--- Select Appointment Data --->
+      <div class="request-label">
+        <label for="appTime">Request Appointment for: </label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+      </div>
+    
         <div class="row">
           <div class="col-6" style="float: right;">
             <input type="text" id="fname" name="firstname" placeholder="First Name">
@@ -323,19 +291,13 @@
           </div>
         </div>
 
-        
-    
         <input type="text" id="subject" name="subject" placeholder="Subject">
 
         <textarea id="message" name="message" placeholder="Your Message" style="height:200px"></textarea>
     
-        <label for="appTime">Request Appointment for: </label>
-       <input type="datetime-local" id="birthdaytime" name="birthdaytime">
-      
        <br>
        <br>
-
-        <input type="submit" value="Submit">
+      <input type="submit" value="Submit">
     
       </form>
     </div>

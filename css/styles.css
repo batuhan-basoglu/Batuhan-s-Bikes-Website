@@ -39,6 +39,7 @@ body {
     background-color: #34626c;
     color: #ffffff;
 }
+
 .colored-section3 {
     background-color: #cfd3ce;
     color: #ffffff;
@@ -62,8 +63,8 @@ h3 {
 }
 
 p {
-     color: rgb(77, 77, 77);
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    color: rgb(77, 77, 77);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 
@@ -86,22 +87,19 @@ p {
 
 .navbar-item {
     padding: 0px 18px;
-    
 }
 
 .navbar-link {
     font-size: 1.2rem;
     font-family: 'Montserrat-light', sans-serif;
-    
-   
 }
 
 #test {
-    color:rgb(236, 236, 236); 
+    color: rgb(236, 236, 236);
 }
 
 #test:hover {
-    color:rgb(216, 181, 24); 
+    color: rgb(216, 181, 24);
 }
 
 
@@ -129,9 +127,8 @@ p {
 }
 
 #features .container-fluid {
-    padding: 3% 5% ;
+    padding: 3% 5%;
     text-align: left;
-
 }
 
 
@@ -210,16 +207,22 @@ p {
 
 
 /* CTA Section */
-#cta{
+
+#cta {
     padding: 3% 7%
 }
 
-.map-img{
-   width:70%;
-   height:400px;
-   margin: 3% auto;
-   
+.map-img {
+    width: 70%;
+    height: 400px;
+    margin: 3% auto;
+}
 
+
+/*****Appointment Section *****/
+
+.request-label {
+    text-align: left;
 }
 
 
@@ -245,30 +248,44 @@ p {
     background-image: url("images/biking.jpg");
 }
 
+
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
     background-color: #d60024;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
     background-color: #fa4664;
-  }
-  
+}
