@@ -1,8 +1,8 @@
-# SEG3125-LAB4
+# Batuhan's Bikes Website
 
 The service company website made by Ruchira Perrera, Sam Oyediran, Batuhan Basoglu, and Kene Ojukwu
 
-https://arctichawk1.github.io/SEG3125-LAB4/
+https://arctichawk1.github.io/Batuhan-s-Bikes-Website/
 
 Noteable bugs in the website 
 the date selection does not work on Safari when trying to select date for appointment 
